@@ -1,0 +1,9 @@
+package Utils;
+
+public class Constants {
+	
+	public static final double IOF = 6.0/100.0;
+	
+	
+	
+}

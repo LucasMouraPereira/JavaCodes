@@ -1,0 +1,8 @@
+package Entities;
+
+public class CurrencyConverter {
+
+	public double dollarNow;
+	public double qtdDollar;
+	
+}

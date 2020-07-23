@@ -1,0 +1,40 @@
+package application;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter with lines` number of matrix: ");
+		int M = sc.nextInt();
+		
+		System.out.println("Enter with colunms` number of matrix: ");
+		int N = sc.nextInt();
+		
+		int mat[][] = new int[M][N];
+		
+		System.out.println("Enter with matrix`s values:");
+		for(int i = 0; i < mat.length; i++) {
+			for(int j = 0; j < mat[i].length; j++) {
+				mat[i][j] = sc.nextInt();
+			}
+		}
+		
+		System.out.print("Enter with a value: " );
+		int x = sc.nextInt();
+		
+		for(int i = 0; i < mat.length; i++) {
+			for(int j = 0; j < mat[i].length; j++) {
+				if(mat[i][j] == x){
+					System.out.println("Position " + i + ", " + j);
+				}
+			}
+		}
+		
+
+		
+		sc.close();
+	}
+
+}

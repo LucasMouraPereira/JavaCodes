@@ -1,0 +1,14 @@
+package aplication;
+
+import entities.Product;
+
+public class main {
+
+	public static void main(String[] args) {
+		Product product;
+		product = new Product();
+		
+
+	}
+
+}

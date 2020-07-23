@@ -1,0 +1,39 @@
+package entities;
+
+public class Account {
+	private int accountNumber;
+	private String name;
+	private double initialValue;
+	
+	public Account() {
+	}
+	
+	public Account(int accountNumber, String name, double initialValue) {
+		this.accountNumber = accountNumber;
+		this.name = name;
+		this.initialValue = initialValue;
+	}
+	
+	public Account(int accountNumber, String name) {
+		this.accountNumber = accountNumber;
+		this.name = name;
+		
+	}
+
+	public int getAccountNumber() {
+		return accountNumber;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getInitialValue() {
+		return initialValue;
+	}
+	
+}

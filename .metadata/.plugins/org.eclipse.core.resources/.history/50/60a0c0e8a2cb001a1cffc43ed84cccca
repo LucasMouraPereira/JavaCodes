@@ -1,0 +1,33 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Account;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		Account account;
+		
+		System.out.print("Enter account number: ");
+		int accountNumber = sc.nextInt();
+		System.out.print("Enter account holder: ");
+		sc.nextLine();
+		String holder = sc.nextLine();
+		
+		//account = new Account(accountNumber, holder, initialValue);
+		account = new Account(accountNumber, holder);
+
+		
+		
+		System.out.println("Account data: ");
+		System.out.println(account);
+		
+		sc. close();
+
+	}
+
+}

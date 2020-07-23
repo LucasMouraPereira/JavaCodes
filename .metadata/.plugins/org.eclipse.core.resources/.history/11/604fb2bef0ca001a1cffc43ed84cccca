@@ -1,0 +1,20 @@
+package Entities;
+
+import Utils.Constants;
+
+public class CurrencyConverter {
+
+	public double dollarNow;
+	public double qtdDollar;
+	
+	public double currency () {
+		double GrossReal = dollarNow * qtdDollar;
+		double liquidReal = (GrossReal * Constants.IOF) + GrossReal;
+		return liquidReal;
+	}
+	
+	public String toString() {
+		return "Amount to be paind in reais = " + currency();
+	} 
+	
+}
