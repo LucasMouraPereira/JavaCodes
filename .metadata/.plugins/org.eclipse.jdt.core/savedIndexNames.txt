@@ -1,23 +1,2 @@
-INDEX VERSION 1.131+/Users/lucasmourapereira/ws-eclipseLarning/JavaLarning/.metadata/.plugins/org.eclipse.jdt.core
-3594813548.index
-2304112262.index
-3707786832.index
-221778122.index
-757679901.index
-3680810016.index
-4049664511.index
-3391305501.index
-2605516038.index
-3204604999.index
-3808490031.index
-2881303987.index
-3775194279.index
-685102560.index
-3973524149.index
-3605943639.index
-1455654108.index
-2257541250.index
-1517987751.index
-3408907691.index
-2478809403.index
-3917803870.index
+INDEX VERSION 1.131+/Users/lucasmourapereira/ws-eclipseLearning/JavaLearning/.metadata/.plugins/org.eclipse.jdt.core
+182856338.index
